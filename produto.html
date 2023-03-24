@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="ação a ser executada">
+        <fieldset>
+            <legend>Produto</legend>
+            <label for="ipoduto">Produto</label>
+            <input type="text" name="txtproduto" id="iproduto">
+            <br>
+            <br>
+            <label for="idatacadastro">Data cadastro</label>
+            <input type="date" name="txtdatacadastro" id="dtcadastro">
+            <br>
+            <br>
+            <label for="ipeso">Peso</label>
+            <input type="number" name="npeso" id="inpeso">
+            <br>
+            <br>
+            <label for="icategoria">Categoria</label>
+            <select name="slcategoria" id="icategoria">
+                <option value="El">Eletrônico</option>
+                <option value="M">Móveis</option>
+                <option value="S">Smartphones</option>
+                <option value="R">Roupa</option>
+            </select>
+            <br>
+            <br>
+            <label>Tipo:</label>
+            <br>
+            <input type="radio" name="stipo" id="inovo">
+            <label for="inovo">Novo</label>
+            <label for="iusado">Usado</label>
+            <input type="radio" name="stipo" id="iusado">
+            <br>
+            <br>
+            <label for="idescrition">Descrição</label>
+            <br>
+            <textarea name="txtfale" id="idescriction" cols="50" rows="20"></textarea>
+            <br>
+            <br>
+            <label for="vol">Volume:</label>
+            <input type="range" name="vol" id="vol" min="0" max="10">
+            <br>
+            <br>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </fieldset>
+    </form>
+</body>
+</html>
